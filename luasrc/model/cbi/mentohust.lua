@@ -23,12 +23,12 @@ s:option(Flag, "boot", translate("开机自启"), translate("开机时自动启�
 s = m:section(TypedSection, "mentohust", translate("设置mentohust"),translate("以下选项为mentohust的参数"))
 s.anonymous = true
 
-s:option(Value, "Username", translate("Username")).default="hustxyh"
+s:option(Value, "Username", translate("Username")).default="hust"
 
 pw=s:option(Value, "Password", translate("Password"))
 pw.password = true
 pw.rmempty = false
-pw.default= "hustxyh2502"
+pw.default= "test"
 
 nic=s:option(ListValue, "Nic", translate("网卡"))
 nic.anonymous = true
