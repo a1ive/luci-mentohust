@@ -20,7 +20,7 @@ define Package/$(PKG_NAME)
   SECTION:=luci
   CATEGORY:=LuCI
   SUBMENU:=3. Applications
-  DEPENDS:=+libpcap
+  DEPENDS:=
   TITLE:=luci-app-mentohust                         
   PKGARCH:=all
 endef
