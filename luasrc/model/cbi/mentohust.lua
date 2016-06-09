@@ -15,7 +15,7 @@ end
 s = m:section(TypedSection, "option", translate("启动选项"),translate("设置mentohust启动选项"))
 s.anonymous = true
 
-s:option(Flag, "enable", translate("MentoHUST_enable"), translate("启用或禁用mentohust")).default="0"
+s:option(Flag, "enable", translate("启用MentoHUST"), translate("启用或禁用mentohust")).default="0"
 
 s:option(Flag, "boot", translate("开机自启"), translate("开机时自动启动mentohust")).default="0"
 
